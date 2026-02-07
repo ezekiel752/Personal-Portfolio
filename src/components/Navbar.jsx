@@ -12,11 +12,11 @@ const Navbar = () => {
           <h1>WebDeveloper</h1>
         </div>
 
-        <div className="block md:hidden">
+        <div className="block sm:hidden">
           <h1 className="material-symbols-outlined">menu</h1>
         </div>
 
-        <div className="hidden md:flex gap-8 transition duration-300">
+        <div className="hidden sm:flex gap-8 transition duration-300">
           <a className="hover:border-b-primary hover:border-b-2 cursor-pointer">
             Home
           </a>
