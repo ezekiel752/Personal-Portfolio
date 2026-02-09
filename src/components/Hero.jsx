@@ -51,7 +51,7 @@ const Hero = () => {
             {/* Code Editor Content */}
             <div className="p-6 text-left font-mono text-sm sm:text-base leading-relaxed overflow-x-auto whitespace-nowrap scrollbar-hide">
               <div className="flex gap-4">
-                <div className="text-slate-400 text-right select-none pr-2 border-r border-slate-200 hidden sm:block min-w-[2rem]">
+                <div className="text-slate-400 text-right select-none pr-2 border-r border-slate-200 hidden sm:block min-w-8">
                   <div>1</div>
                   <div>2</div>
                   <div>3</div>
