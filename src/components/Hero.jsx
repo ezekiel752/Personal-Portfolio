@@ -20,12 +20,12 @@ const Hero = () => {
             technologies.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
-          <button className="bg-primary text-white hover:shadow-2xl shadow-primary/30 px-6 py-3 rounded-md my-12 flex items-center justify-center gap-2 hover:bg-[#6679e6] transition-all">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 my-12">
+          <button className="bg-primary text-white hover:shadow-2xl shadow-primary/30 px-6 py-3 rounded-md flex items-center justify-center gap-2 hover:bg-[#6679e6] transition-all">
             <span className="material-symbols-outlined">visibility</span>
             view my projects
           </button>
-          <button className="border border-primary text-primary hover:shadow-2xl px-6 py-3 rounded-md my-12 flex items-center justify-center gap-2 hover:bg-primary/10 transition-all">
+          <button className="border border-primary text-primary hover:shadow-2xl px-6 py-3 rounded-md flex items-center justify-center gap-2 hover:bg-primary/10 transition-all">
             <span className="material-symbols-outlined">download</span>
             download my resume
           </button>

@@ -18,7 +18,7 @@ const Navbar = () => {
             <h1>WebDev</h1>
           </div>
 
-          <div className="hidden sm:flex gap-8 transition duration-300">
+          <div className="hidden sm:flex gap-8 *:transition *:duration-300 *:ease-in-out">
             <a
               href="#home"
               className="hover:border-b-primary hover:border-b-2 cursor-pointer"
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
 
           <div>
-            <button className="bg-primary text-white px-4 py-2 rounded-md hover:bg-[#6679e6] transition-all hidden md:block">
+            <button className="bg-primary hover:shadow-2xl text-white px-4 py-2 rounded-md hover:bg-[#6679e6] transition-all hidden md:block">
               Hire Me
             </button>
           </div>
