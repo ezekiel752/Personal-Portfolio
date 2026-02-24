@@ -19,17 +19,23 @@ const InterestedSection = () => {
     ]
 
   return (
-    <div>
-      <div className="grid grid-cols-2 md:grid-cols-4">
-        {propDetails.map((detail, index) => (
-            <div key={index}>
-                <h2>{detail.heading}</h2>
-                <p>{detail.title}</p>
+    
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          {propDetails.map((detail, index) => (
+            <div
+              key={index}
+              className="text-center"
+            >
+              <h2 className="text-primary text-5xl font-black mb-2">
+                {detail.heading}
+              </h2>
+              <p className="uppercase text-slate-500 text-xs font-bold tracking-widest">{detail.title}</p>
             </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-  )
+  );
 }
 
 export default InterestedSection
